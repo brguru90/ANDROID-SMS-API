@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="169dp"
+        android:layout_height="66dp"
+        android:id="@+id/editText"
+        android:layout_x="28dp"
+        android:layout_y="44dp"
+        android:textSize="20dp"
+        android:hint="USER ID"
+        android:text="guru" />
+
+    <EditText
+        android:layout_width="169dp"
+        android:layout_height="66dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_x="28dp"
+        android:layout_y="136dp"
+        android:textSize="20dp"
+        android:hint="PASSWORD"
+        android:text="9611" />
+
+    <Button
+        android:layout_width="169dp"
+        android:layout_height="66dp"
+        android:text="Login"
+        android:id="@+id/button"
+        android:layout_x="28dp"
+        android:layout_y="312dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="169dp"
+        android:layout_height="66dp"
+        android:id="@+id/editText3"
+        android:layout_x="28dp"
+        android:layout_y="216dp"
+        android:textSize="20dp"
+        android:hint="Mobile No"
+        android:phoneNumber="true" />
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="66dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView"
+        android:layout_x="28dp"
+        android:layout_y="394dp"
+        android:textSize="24dp"
+        android:paddingTop="8dp" />
+
+</AbsoluteLayout>

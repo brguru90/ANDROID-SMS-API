@@ -1,0 +1,33 @@
+<?php
+$uid="guru";
+$pwd="9611";
+$sender="9482399078";
+$msg="hi2";
+$recipient="9482399078";
+$url = 'http://localhost:801/guru/sms_server/insert_sms.php';
+$data = array('uid' => "$uid", 'password' => "$pwd", 'sender' => "$sender", 'msg' => "$msg", 'recipient' => "$recipient");
+
+// use key 'http' even if you send the request to https://...
+$options = array(
+    'http' => array(
+        'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+        'method'  => 'POST',
+        'content' => http_build_query($data)
+    )
+);
+$context  = stream_context_create($options);
+$result = file_get_contents($url, false, $context);
+if ($result === FALSE) { /* Handle error */ }
+
+date_default_timezone_set("Asia/Calcutta"); 
+if(preg_match("/^[0-9]+$/", $result))
+{
+	echo $result;
+	$i=0;
+	while($i<=5){
+		$i++;
+		echo date("H:i:s")."<br />";
+		sleep(1);
+	}
+}
+?>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:id="@+id/button2"
+        android:layout_x="73dp"
+        android:layout_y="196dp"
+        android:textSize="40dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp" />
+</AbsoluteLayout>

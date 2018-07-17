@@ -1,0 +1,13 @@
+@font-face 
+{
+    font-family: 'guru';
+   src: local('a~z'), url('guru.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html p, html i{font-family:guru}
+html *,body *,h1,h2,h3,h4,h5,.sub,#kk{font-family:guru0}
+body input,{font-family:guru15;font-weight:550;letter-spacing: 1px;}
+
+*{font-family:guru0;}

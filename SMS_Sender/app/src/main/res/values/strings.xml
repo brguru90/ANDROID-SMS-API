@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SMS_Sender</string>
+    <string name="host1">http://guruinfo.epizy.com/sms_server/</string>
+    <string name="host2">http://guruinfo.6te.net/sms_server/</string>
+</resources>
